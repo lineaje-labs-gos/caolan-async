@@ -1,7 +1,7 @@
 {
   "name": "async",
   "description": "Higher-order functions and common patterns for asynchronous code",
-  "version": "2.6.4-lineaje-01",
+  "version": "3.7.3-lineaje-01",
   "main": "dist/async.js",
   "author": "Caolan McMahon",
   "homepage": "https://caolan.github.io/async/",
@@ -83,5 +83,11 @@
     "exclude": [
       "mocha_test"
     ]
+  },
+  "overrides": {
+    "webpack-dev-middleware": ">=3.7.3-lineaje-01"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": ">=3.7.3-lineaje-01"
   }
 }
